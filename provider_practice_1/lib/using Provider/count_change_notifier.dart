@@ -13,7 +13,7 @@ class CountChangeNotifier extends ChangeNotifier{
       if(timer.tick == 10){
         timer.cancel();
       }
-      print("before ${timer.tick}");
+      // print("before ${timer.tick}");
     notifyListeners();
     // print("after : ${timer.tick}");
     });
